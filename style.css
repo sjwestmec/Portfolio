@@ -1,3 +1,13 @@
+img {
+    border-radius: 70%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 85%;
+    
+   
+    
+}
 .naviBar {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
