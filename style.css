@@ -21,21 +21,25 @@ h1 {
         font-family: Arial, Helvetica, sans-serif;
         font-size: xx-large;
         font-weight: bolder;
+        text-shadow: 2px 2px black;
 
 }
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #EBEBF2;
+    text-shadow: 2px 2px black;
     
 }
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #EBEBF2;
+    text-shadow: 2px 2px black;
 
 }
 h5 {
     font-family: Arial, Helvetica, sans-serif;
     color: #EBEBF2;
+    text-shadow: 2px 2px black;
     
 }
 
@@ -44,15 +48,18 @@ body {
 }
 ul{
     color: #EBEBF2;
+    text-shadow: 2px 2px black;
 }
 li{
     color: #EBEBF2;
+    text-shadow: 2px 2px black;
 }
 a{
     color: #EBEBF2;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     font-weight: bolder;
+    text-shadow: 2px 2px black;
 }
 
 
@@ -60,11 +67,13 @@ a{
     list-style-type: none;
     padding: 10px;
     color: #EBEBF2;
+    text-shadow: 2px 2px black;
 }
 .notches2 ol {
     list-style-type: none;
     padding: 10px;
     color: #EBEBF2;
+    text-shadow: 2px 2px black;
 }
 .notch {
     display: inline-block;
