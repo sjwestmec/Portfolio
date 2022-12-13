@@ -1,5 +1,6 @@
 .naviBar {
     display: flex;
+    justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
     color: #EBEBF2;
     border: 3px solid #0E3740;
