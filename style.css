@@ -1,23 +1,61 @@
-#name {
-    text-align: center;
+.naviBar {
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    border: 3px solid #8C1535;
-    background-color: #8C1535;
-    text-shadow: black 2px 5px;
+    color: #EBEBF2;
+    border: 3px solid #0E3740;
+    background-color: #0E3740;
+    
 }
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-shadow: black 2px 5px;
+    color: #EBEBF2;
+    
 }
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EBEBF2;
 
+}
 h5 {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-
+    color: #EBEBF2;
+    
 }
 
 body {
-    background-color: #D91649;
+    background-color: #155959;
+}
+ul{
+    color: #EBEBF2;
+}
+li{
+    color: #EBEBF2;
+}
+a{
+    color: #EBEBF2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+.notches1 ol {
+    list-style-type: none;
+    padding: 10px;
+    color: #EBEBF2;
+}
+.notches2 ol {
+    list-style-type: none;
+    padding: 10px;
+    color: #EBEBF2;
+}
+.notch {
+    display: inline-block;
+}
+
+.notch a::after {
+    display: inline-block;
+    color: #000;
+    content: '';
+    
 }
