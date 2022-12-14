@@ -47,7 +47,19 @@ h5 {
 body {
     background-color: #155959;
     overflow: hidden;
-    background-image: url(dragon-scales.svg)
+    background-image: url(dragon-scales.svg);
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 ul{
     color: #EBEBF2;
