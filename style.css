@@ -4,9 +4,8 @@ img {
     height: 200px;
     position: relative;
     left: 83%;
-    box-shadow: 5px 10px;
-    bottom: 5%;
-    color: #0E3740;
+    bottom: 5%; 
+    border: 10px solid white;
 }
 .naviBar {
     display: flex;
