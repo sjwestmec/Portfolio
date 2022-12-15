@@ -1,5 +1,16 @@
+img {
+    border-radius: 70%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 83%;
+    bottom: 5%;
+    border: 10px solid white;
+}
+
 .naviBar {
     display: flex;
+    justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
     color: #EBEBF2;
     border: 3px solid #0E3740;
@@ -40,7 +51,20 @@ h5 {
 body {
     background-color: #155959;
     overflow: hidden;
-    background-image: url(dragon-scales.svg)
+    background-image: url(dragon-scales.svg);
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 ul {
@@ -63,13 +87,6 @@ a {
 
 
 .notches1 ol {
-    list-style-type: none;
-    padding: 10px;
-    color: #EBEBF2;
-    text-shadow: 2px 2px black;
-}
-
-.notches2 ol {
     list-style-type: none;
     padding: 10px;
     color: #EBEBF2;
